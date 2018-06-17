@@ -1,6 +1,6 @@
 Identifier = "Waypointer"
 Name = "Waypointer"
-Description = "Attempts at setting up a waypoint list addon"
+Description = "Waypoint Listing Addon"
 Author = "Tishibosh@Greybriar"
 Version = "1.0"
 Email = ""
