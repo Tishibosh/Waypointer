@@ -1,0 +1,20 @@
+Identifier = "XenUtils"
+Name = "XenUtils"
+NameShort = "xenu"
+Description = "Utils used by Xenyr's addons"
+Author = "Xenyr@zaviel"
+Website = "http://www.riftui.com"
+Version = "1.0"
+Email = "xenyre@nospam.com"
+Environment = { "3.0", "3.1", "3.2" }
+RunOnStartup = {
+  "Utils.lua",
+  "Timer.lua",
+  "AsyncHandler.lua",
+  "AbilityManager.lua",
+  "BuffManager.lua",
+  "StatManager.lua",
+  "ChatNotifyManager.lua",
+  "ChatNpcManager.lua",
+  "PopupMenu.lua"
+}

@@ -1,0 +1,31 @@
+Identifier = "Waypointer"
+Name = "Waypointer"
+Description = "Attempts at setting up a waypoint list addon"
+Author = "Tishibosh@Greybriar"
+Version = "1.0"
+Email = ""
+Environment = { "4.0" }
+RunOnStartup = {
+  "Locale.lua",
+  "Zones.lua",
+  "Givers.lua",
+  "KnownCoords.lua",
+  "DragFrame.lua",
+  "Locations.lua",
+  "main.lua"
+}
+
+SavedVariables = {
+  Completionist_SavedVariables = "shard",
+  Completionist_SavedCharacterVariables = "character"
+}
+
+Embed = {
+	LibSimpleWidgets = true,
+	XenUtils = true
+}
+
+Dependencies = {
+  LibSimpleWidgets = {"required", "before"},
+  XenUtils = {"required", "before"}
+}
